@@ -1,0 +1,6 @@
+interface:
+  display_name: "豆尼产能盘点"
+  short_description: "按客户表与动态发现的机构多维表生成每日确定性产能盘点"
+  default_prompt: "Use $douni-capacity-inventory to run today’s capacity inventory and summarize the result."
+policy:
+  allow_implicit_invocation: true
